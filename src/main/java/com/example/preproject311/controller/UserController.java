@@ -2,6 +2,7 @@ package com.example.preproject311.controller;
 
 import com.example.preproject311.model.User;
 import com.example.preproject311.service.UserService;
+import com.example.preproject311.service.UserServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
