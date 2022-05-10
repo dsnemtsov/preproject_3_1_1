@@ -32,6 +32,7 @@ public class UserServiceImpl implements UserService {
         userRepo.save(user);
     }
 
+    @Transactional
     @Override
     public void update(long id, User updatedUser) {
         User user = findById(id);
